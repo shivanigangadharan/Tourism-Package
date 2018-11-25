@@ -205,9 +205,9 @@ void suggestedsports(){
         cout<<"\tEnter your choice please:-\n\t\t1: India\n\t\t2: Australia\n\t\t3: Maldives\n\t\t4: Los Angeles\n\t\tChoice= ";
         cin>>no;
         if(no==1) cout<<"\nIndia is famous for its chess players. When in India, do play a game of chess with the locals!";
-        else if(no==2) cout<<"\nNever leave Australie without trying your hand at bungee jumping.";
+        else if(no==2) cout<<"\nNever leave Australie without trying bungee jumping.";
         else if(no==3) cout<<"\nScuba diving is something that is best experienced only in Maldives!";
-        else if(no==4) cout<<"\nUniversal studios in Los Angeles offers the best theme-based rides in the world.";
+        else if(no==4) cout<<"\nUniversal Studios in Los Angeles offers the best theme-based rides in the world.";
         else cout<<"Invalid choice!";
         }
 
