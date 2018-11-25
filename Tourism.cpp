@@ -30,7 +30,7 @@ class holiday{
 void holiday::bookholiday(){
 
         ofstream fout("holiday.dat",ios::binary|ios::app);
-        cout<<"Please enter your details for the required package: \nName: ";
+        cout<<"Please enter your details for the package: \nName: ";
         fflush(stdin);
         cin.getline(custname,50);
         cout<<"ID:  ";
