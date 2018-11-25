@@ -7,7 +7,7 @@
 #include<stdlib.h>
 using namespace std;
 
-/*******Class holiday to implement booking of a tourist place by user*******/
+/*******Class holiday to implement booking of a place by user*******/
 
 class holiday{
     private:
