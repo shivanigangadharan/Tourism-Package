@@ -113,7 +113,7 @@ void holiday::changebookings(){
         rename("temp.dat","holiday.dat");
         }
 
-/*******Function remove_rec to cancel a booking made by user*******/
+/*******Function remove_rec to delete or remove a booking made by user*******/
 
 void holiday::remove_rec(){
         int cust_id;
