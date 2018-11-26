@@ -193,7 +193,7 @@ void review::viewreview(){
                     cout<<"\nExperience of previous visitors:  "<<exp;
             }
         }
-        if(flag==0) cout<<"\nNo reviews available for this country!\n";
+        if(flag==0) cout<<"\nSorry, no reviews available for this country!\n";
         fin.close();
 }
 
