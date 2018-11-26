@@ -72,7 +72,7 @@ void holiday::viewhol(){
                     cout<<"\nNumber of passengers:  "<<y.pno;
                     }
             }
-        if(flag==0) cout<<"\nNo bookings available!\n";
+        if(flag==0) cout<<"\nSorry, no bookings available!\n";
         fin.close();
 }
 
