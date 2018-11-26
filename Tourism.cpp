@@ -99,7 +99,7 @@ void holiday::changebookings(){
                 cin.getline(country,50);
                 cout<<"Hotel:  ";
                 cin.getline(hotel,50);
-                cout<<"Budget:  ";
+                cout<<"Your Budget:  ";
                 cin>>budget;
                 cout<<"No. of passengers:  ";
                 cin>>pno;
