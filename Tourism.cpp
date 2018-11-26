@@ -68,7 +68,7 @@ void holiday::viewhol(){
                     cout<<"\nID:  "<<y.id;
                     cout<<"\nDestination country:  "<<y.country;
                     cout<<"\nHotel:  "<<y.hotel;
-                    cout<<"\nBudget:  "<<y.budget;
+                    cout<<"\nYour budget:  "<<y.budget;
                     cout<<"\nNumber of passengers:  "<<y.pno;
                     }
             }
