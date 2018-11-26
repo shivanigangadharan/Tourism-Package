@@ -40,7 +40,7 @@ void holiday::bookholiday(){
         cin.getline(country,50);
         cout<<"Hotel name:  ";
         cin.getline(hotel,50);
-        cout<<"Budget:  ";
+        cout<<"Your budget:  ";
         cin>>budget;
         cout<<"Number of passengers:  ";
         cin>>pno;
