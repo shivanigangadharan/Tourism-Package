@@ -33,7 +33,7 @@ void holiday::bookholiday(){
         cout<<"Please enter your details for the package: \nName: ";
         fflush(stdin);
         cin.getline(custname,50);
-        cout<<"ID:  ";
+        cout<<"Your ID:  ";
         cin>>id;
         fflush(stdin);
         cout<<"Destination country:  ";
