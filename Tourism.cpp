@@ -2,7 +2,6 @@
 #include<conio.h>
 #include<fstream>
 #include<string.h>
-
 #include<stdio.h>
 #include<stdlib.h>
 using namespace std;
@@ -12,17 +11,16 @@ using namespace std;
 class holiday{
     private:
     int id;
-    char custname[50];
+    char custname[50]; //customer_name
     char country[50];
     char hotel[50];
     float budget;
-    int pno;
+    int pno; //number of passengers
     public:
         void bookholiday();
         void viewhol();
         void changebookings();
         void remove_rec();
-
     };
 
 /*******Function holiday to store booking details of user*******/
@@ -187,10 +185,10 @@ void review::viewreview(){
                     cout<<"\n\t\t\t\t";
                     for(int i=0; i<l; i++) cout<<"*";
 
-                    cout<<"\nRatings (out of ten) :  "<<rating;
-                    cout<<"\nAverage expenditure:  "<<expenditure;
-                    cout<<"\nBest place to visit in "<<mycountry<<" :  "<<bestplace;
-                    cout<<"\nExperience of previous visitors:  "<<exp;
+                    cout<<"\nRatings (out of ten) :  "<<rating; //shows rating
+                    cout<<"\nAverage expenditure:  "<<expenditure; //shows expenditure
+                    cout<<"\nBest place to visit in "<<mycountry<<" :  "<<bestplace; //shows bestplaces
+                    cout<<"\nExperience of previous visitors:  "<<exp; //shows experience of visitors
             }
         }
         if(flag==0) cout<<"\nSorry, no reviews available for this country!\n";
